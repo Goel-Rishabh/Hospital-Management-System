@@ -26,6 +26,9 @@
                         login.email = "";
                         login.password = "";
                     }
+                    function myTimeout(response) {
+                        alert('connection timed out');
+                    }
                 );
         }
     });
